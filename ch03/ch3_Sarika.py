@@ -54,13 +54,91 @@ def addition():
 hello_world()
 name_surname()"""
 
-def asking():
+"""def asking():
     print ("Please choose a number")
     numbera = input()
     print ("Please choose another number")
     numberb = input()
     print (int(numbera)+int(numberb))
 asking()
+"""
+  
 
 
- git     
+def hello_world_2args(a, b):
+    print ("{} {}".format(a, b))
+    
+a1 = 'hello'
+b1 = 'world'
+a2 = 'love'
+b2 = 'coding'
+hello_world_2args(a1, b1)
+hello_world_2args(a2, b2)
+
+
+
+def hello_world_4args(a, b, c, d):
+    print ("{} {} {} {}".format(a, b, c, d))
+    
+a1 = 'hello'
+b1 = 'world'
+c1 = 'love'
+d1 = 'coding'
+a2 = 'Monday'
+b2 = 'today!'
+c2 = 'Nearly'
+d2 = 'Christmas!!!'
+a3 = 'Went'
+b3 = 'Ipswich'
+c3 = 'on'
+d3 = 'Friday!'
+a4 = 'Some'
+b4 = 'going'
+c4 = 'Belfast'
+d4 = 'Thursday!'
+hello_world_4args(a1, b1, c1, d1)
+hello_world_4args(a2, b2, c2, d2)
+hello_world_4args(a3, b3, c3, d3)
+hello_world_4args(a4, b4, c4, d4)
+    
+
+def convert_temperature(centigrade):
+    fahrenheit = (centigrade * 9.0) / 5.0 + 32
+    kelvin = centigrade + 273.15
+    print ("Converting temperature in centigrade to fahrenheit:")
+    print ("Temperature in centigrade:", centigrade)
+    print ("Temperature in fahrenheit:", fahrenheit)
+    print ("Converting temperature in centigrade to kelvin:")
+    print ("Temperature in centigrade:", centigrade)
+    print ("Temperature in kelvin:", kelvin)
+    
+convert_temperature(15)
+
+    
+def convert_temperature(centigrade):
+    fahrenheit = (centigrade * 9.0) / 5.0 + 32
+    kelvin = centigrade + 273.15
+    return (centigrade, fahrenheit, kelvin)
+    
+conversion = convert_temperature(1)
+print (conversion)
+
+
+def convert_temperature(): 
+    centigrade = int(input("What temperature in centigrade do you want to convert to fahrenheit and kelvin?"))
+    fahrenheit = (centigrade * 9.0) / 5.0 + 32
+    kelvin = centigrade + 273.15
+    return (centigrade, fahrenheit, kelvin)
+    
+conversion = convert_temperature()
+print (conversion)
+
+
+
+
+
+    
+    
+    
+    
+    
