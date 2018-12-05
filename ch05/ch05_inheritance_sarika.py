@@ -4,40 +4,62 @@ Created on Wed Dec  5 12:02:27 2018
 
 @author: saras
 """
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec  5 15:20:54 2018
+
+@author: saras
+"""
 
 class Animal():
-    def __init__(self, age=0):
+    def __init__(self, name, age=0):
         self.age = age
+        self.name = name
         
     def eat(self):
         print('yum yum yum!')
 
 class Dog(Animal):
-    def __init__(self, age=0, barkNumber=0):
-        self.barkNumber = barkNumber
-
     def bark(self):
-        print('Woof! '*self.barkNumber)
+        print('Woof! ')
         
 class Pug(Dog):
     def size(self):
         print('small')
         
-class Cat(Animal):
-    def meow(self):
-        print('Meow!')
+#class Cat(Animal):
+#    def meow(self):
+#        print('Meow!')
         
-                
-Snoopy = Dog()
-Snoopy.bark()
+class Cat(Animal):
+    def __init__(self, name, age=0, hobby=''):
+#        Cat.__init__(self, name, age=0)    
+        self.hobby = hobby 
+    def meow(self):
+        print('Meow!')  
+        print('Cats hobby is {}' .format(self.hobby))
+        
+class Siamese(Cat):
+    def __init__(self, name, age=0, hair=''):
+        Animal.__init__(self, name, age=0)
+        self.hair = hair
+    def eye_color(self):
+        print('bright blue')
+        print('{} has bright blue eyes and {} hair'.format(self.name, self.hair))
+        
+Snoopy = Dog('Snoopy the fantastic Dog', 4)
 Snoopy.eat()
+Snoopy.bark()
 
-Felix = Cat()
-Felix.meow()
+Felix = Cat('Felix from cat food ad', 6, 'playing with yarn')
 Felix.eat()
+Felix.meow()
 
-Doug = Pug()
+Doug = Pug('Wonderful Doug', 8)
 Doug.size()
+
+Sammy = Siamese('Super market Sammy', 2, 'short')
+Sammy.eye_color()
 
 
 #class Robot():
