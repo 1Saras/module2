@@ -26,11 +26,7 @@ class Dog(Animal):
 class Pug(Dog):
     def size(self):
         print('small')
-        
-#class Cat(Animal):
-#    def meow(self):
-#        print('Meow!')
-        
+            
 class Cat(Animal):
     def __init__(self, name, age=0, hobby=''):
 #        Cat.__init__(self, name, age=0)    
@@ -46,20 +42,47 @@ class Siamese(Cat):
     def eye_color(self):
         print('bright blue')
         print('{} has bright blue eyes and {} hair'.format(self.name, self.hair))
+ 
+class SuperAnimal():
+    
+    def __init__(self,name,age):
+        #this class contains 4 objects#
+        self.name = name
+        self.age = age
         
-Snoopy = Dog('Snoopy the fantastic Dog', 4)
-Snoopy.eat()
-Snoopy.bark()
-
-Felix = Cat('Felix from cat food ad', 6, 'playing with yarn')
-Felix.eat()
-Felix.meow()
-
-Doug = Pug('Wonderful Doug', 8)
-Doug.size()
-
-Sammy = Siamese('Super market Sammy', 2, 'short')
-Sammy.eye_color()
+        self.o1 = Dog() #o1 is object number#
+        self.o2 = Pug()
+        self.o3 = Cat()
+        self.o3 = Siamese()
+        
+    def playGame(self):
+        print('chasing birds')
+        
+    def bark(self):
+        return self.o1.bark()
+    
+    def size(self):
+        return self.o2.size()
+    
+    def meow(self):
+        return self.o3.meow()
+    
+    def eye_color(self):
+        return self.o4.eye_color()
+       
+#Snoopy = Dog('Snoopy the fantastic Dog', 4)
+#Snoopy.eat()
+#Snoopy.bark()
+#
+#Felix = Cat('Felix from cat food ad', 6, 'playing with yarn')
+#Felix.eat()
+#Felix.meow()
+#
+#Doug = Pug('Wonderful Doug', 8)
+#Doug.size()
+#
+#Sammy = Siamese('Super market Sammy', 2, 'short')
+#Sammy.eye_color()
 
 
 #class Robot():
