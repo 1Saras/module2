@@ -4,7 +4,7 @@ Created on Mon Dec  3 15:55:22 2018
 
 @author: saras
 """
-from ch03_function import* 
+from ch03_functionsarika import* 
 
 
 
