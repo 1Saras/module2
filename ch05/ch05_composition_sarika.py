@@ -17,6 +17,7 @@ Created on Wed Dec  5 15:20:54 2018
 
 @author: saras
 """
+import sys
 
 class Animal():
     def __init__(self, name, age=0):
@@ -75,21 +76,27 @@ class SuperAnimal():
     
     def eye_color(self):
         return self.o4.eye_color()
-       
-#Snoopy = Dog('Snoopy the fantastic Dog', 4)
+
+name = sys.argv[1]
+age = sys.argv[2]
+print(name)
+print(age)
+         
+#Snoopy = Dog('Snoopy the fantastic', 4)
 #Snoopy.eat()
 #Snoopy.bark()
 #
-#Felix = Cat('Felix from cat food ad', 6, 'playing with yarn')
-#Felix.eat()
-#Felix.meow()
+Felix = Cat('Felix from cat food ad', 6, 'playing with yarn')
+Felix.eat()
+Felix.meow()
 #
 #Doug = Pug('Wonderful Doug', 8)
-#Doug.size()version
+#Doug.size()
 #
 #Sammy = Siamese('Super market Sammy', 2, 'short')
 #Sammy.eye_color()
-
+#
+#print(Snoopy.name, Snoopy.age)
 
 #class Robot():
 #    def move(self):
