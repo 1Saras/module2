@@ -4,12 +4,6 @@ Created on Wed Dec  5 12:02:27 2018
 
 @author: saras
 """
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec  5 15:20:54 2018
-
-@author: saras
-"""
 
 class Animal():
     def __init__(self, name, age=0):
