@@ -117,23 +117,23 @@
 #convert_temperature(15)
 #
 #    
-#def convert_temperature(centigrade):
-#    fahrenheit = (centigrade * 9.0) / 5.0 + 32
-#    kelvin = centigrade + 273.15
-#    return (centigrade, fahrenheit, kelvin)
-#    
-#conversion = convert_temperature(1)
-#print (conversion)
-#
-#
-#def convert_temperature(): 
-#    centigrade = int(input("What temperature in centigrade do you want to convert to fahrenheit and kelvin?"))
-#    fahrenheit = (centigrade * 9.0) / 5.0 + 32
-#    kelvin = centigrade + 273.15
-#    return (centigrade, fahrenheit, kelvin)
-#    
-#conversion = convert_temperature()
-#print (conversion)
+def convert_temperature(centigrade):
+    fahrenheit = (centigrade * 9.0) / 5.0 + 32
+    kelvin = centigrade + 273.15
+    return (centigrade, fahrenheit, kelvin)
+    
+conversion = convert_temperature(1)
+print (conversion)
+
+
+def convert_temperature(): 
+    centigrade = int(input("What temperature in centigrade do you want to convert to fahrenheit and kelvin?"))
+    fahrenheit = (centigrade * 9.0) / 5.0 + 32
+    kelvin = centigrade + 273.15
+    return (centigrade, fahrenheit, kelvin)
+    
+conversion = convert_temperature()
+print (conversion)
 #
 #
 #
