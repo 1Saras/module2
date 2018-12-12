@@ -12,11 +12,11 @@ Creating an empty function
 
 def DataBundlePurchase(truePasscode, balance):
     if passwordCheck(truePasscode):
-        if checkBalance(balance):
-            print ('Your balance is {}'.format(balance))
+#        if checkBalance(balance):
+#            print ('Your balance is {}'.format(balance))
             return ask_transaction(balance)
-        else:
-            return ('Your balance is not sufficient: {}'.format(balance))
+#        else:
+#            return ('Your balance is not sufficient: {}'.format(balance))
     else:
         return 'Wrong password'
 
@@ -37,29 +37,34 @@ def ask_transaction(balance):
     if ask == '1':
         print ('Your balance is {}'.format(balance)) 
     elif ask == '2':   
-        checkPhoneNo()
+        return checkPhoneNo(balance)
     else:
         print ('You must input the number 1 or 2')
 
 
-def checkPhoneNo():
+def checkPhoneNo(balance):
+    maxpurchase=100
     number1 = input('please type your phone number: ')
     number2 = input('please type your phone number again: ')
     if number1 == number2: 
-        print ('How much credit would you like to purchase? Your input must be a multiple of 5')
+        creditpurchase=int(input('How much credit would you like to purchase? Your input must be a multiple of 5: '))
+        if creditpurchase > maxpurchase:
+            print ('You can only top up to £100')
+        elif creditpurchase > balance:
+            return ('You do not have enough balance')
+        else:
+            multiple_of_five(creditpurchase)
     else:
-        print("You have entered the incorrect number")
+        return ('Your phone numbers do not match')
+    
 
-#
-#
-##return multiple_of_five()
-#
-##def check_against_balance(amount):
-##     if balance    
-#    
-##def multiple_of_five():
-##    if mutiple ==    
-
+def multiple_of_five(creditpurchase):
+    if creditpurchase %5==0:
+        print ('Congrats you can purchase')
+    else:
+        print ('Amount entered must be a multiple of 5')
+    
+    
 def checkBalance(balance):
     if balance > 0:
         return True
