@@ -48,7 +48,7 @@ y[-2] ='sd'
 
 x2 = [(a, 3, 'a', z), (c, 1, 'c', y), (b, 5, 'b', x)]
 
-
+ 
 #sorted(x2, key=lambda s:s[0][-3])
 #sorted(x2, key=lambda s:s[3][-3][-2])
 #sorted(x2, key=lambda s:s[3][-3][-2]) [0]
