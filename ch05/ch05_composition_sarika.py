@@ -78,10 +78,10 @@ class SuperAnimal():
         return self.o4.eye_color()
 
 name = sys.argv[1]
- age = sys.argv[2]
+age = sys.argv[2]
 print(name)
 print(age)
-         ``
+         
 #Snoopy = Dog('Snoopy the fantastic', 4)
 #Snoopy.eat()
 #Snoopy.bark()

@@ -22,7 +22,7 @@ Created on Fri Dec 14 09:49:36 2018
 #print(salary)
 #
 #
-tel = {}
+#tel = {}
 #tel = {'alf':111, 'bobby':222, 'calvin':333}
 #
 #tel['Martiena'] = 145
@@ -43,7 +43,7 @@ tel = {}
 #print(tel.keys())
 #print(tel.values())
 #
-##cast to standardised list#, looks the same when printed but can now do operations to it
+#cast to standardised list, looks the same when printed but can now do operations to it#
 #list(tel.keys())[0]
 #print(tel.keys())
 #
@@ -64,7 +64,7 @@ tel = {}
 #    
 #else:
 #    print(k, 'not found!')
-
+#
 ##
 #counts = {'a': 3, 'c': 1, 'b': 5}
 #labels = list(counts.keys())
@@ -80,20 +80,20 @@ tel = {}
 #print(counts)
 
 #I've started again and am adding 2 values to tel list#
-tel = {}
-tel = {'alf':('March', 111), 'bobby':('June', 222), 'calvin':('Sept', 333), 'Martiena':('May', 821), 'Mag':('Nov', 281)}
-print(tel)
-
-labels = list(tel.keys())
-
-labels.sort(key=lambda k:tel[k])
-print(labels)
-
-tel_keys = list(tel.keys())
-
-tel_keys.sort(key=lambda k:tel[k][1])
-print (tel_keys)
-
-print(sorted(tel.items(), key=lambda kv:kv[1]))
-
-print(sorted(tel.items(), key=lambda kv:kv[0]))
+#tel = {}
+#tel = {'alf':('March', 111), 'bobby':('June', 222), 'calvin':('Sept', 333), 'Martiena':('May', 821), 'Mag':('Nov', 281)}
+#print(tel)
+#
+#labels = list(tel.keys())
+#
+#labels.sort(key=lambda k:tel[k])
+#print(labels)
+#
+#tel_keys = list(tel.keys())
+#
+#tel_keys.sort(key=lambda k:tel[k][1])
+#print (tel_keys)
+#
+#print(sorted(tel.items(), key=lambda kv:kv[1]))
+#
+#print(sorted(tel.items(), key=lambda kv:kv[0]))
