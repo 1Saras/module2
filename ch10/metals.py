@@ -11,15 +11,19 @@ print(metals)
 #turns the tuples into lists#
 metals_keys = list(metals.keys())
 #
-##sorts by share price accending#
-#print(sorted(metals.items(), key=lambda kv:kv[1][1]))
-#
+#sorts by share price accending#
+print(sorted(metals.items(), key=lambda kv:kv[1][1]))
+
 ##sorts by share price in reverse order#
 #print(sorted(metals.items(), key=lambda kv:kv[1][1],reverse=True))
 #
 ##sorts by share price in reverse order but only showing the keys#
 #metals_keys.sort(key=lambda k:metals[k][1],reverse=True)
 #print(metals_keys)
-#
+
 #sorting by experiment ascending#
 #print(sorted(metals.items(), key=lambda kv:kv[1][2]))
+#sorted(densities, reverse=True,key=lambda m:densities[m] [1] [0])
+sorted(metals.items(),key=lambda kv:kv[1][1],reverse=True)
+sorted(metals.items(),key=lambda kv:kv[1][1],reverse=True)[2]
+

@@ -40,8 +40,8 @@
 #def hello_world():
 #    print ("Hello World!")
 #    
-#def name_surname():
-#    print ("What's your name?")
+def name_surname():
+    print ("What's your name?")
 #    name = input()
 #    
 #    print ("My name is {}".format(name))
@@ -52,7 +52,7 @@
 #    print (add2_2)
 #    
 #hello_world()
-#name_surname()
+name_surname()
 #
 #
 #def asking():

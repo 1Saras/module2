@@ -80,9 +80,9 @@ Created on Fri Dec 14 09:49:36 2018
 #print(counts)
 
 #I've started again and am adding 2 values to tel list#
-#tel = {}
-#tel = {'alf':('March', 111), 'bobby':('June', 222), 'calvin':('Sept', 333), 'Martiena':('May', 821), 'Mag':('Nov', 281)}
-#print(tel)
+tel = {}
+tel = {'alf':('March', 111), 'bobby':('June', 222), 'calvin':('Sept', 333), 'Martiena':('May', 821), 'Mag':('Nov', 281)}
+print(tel)
 #
 #labels = list(tel.keys())
 #
@@ -97,3 +97,5 @@ Created on Fri Dec 14 09:49:36 2018
 #print(sorted(tel.items(), key=lambda kv:kv[1]))
 #
 #print(sorted(tel.items(), key=lambda kv:kv[0]))
+
+ 
