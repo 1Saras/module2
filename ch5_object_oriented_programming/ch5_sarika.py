@@ -5,6 +5,7 @@ Created on Wed Dec  5 10:13:59 2018
 @author: saras
 """
 
+##Task 1 - Using classes#
 
 class Customer(object):
     """A customer of ABC Bank with a checking account. Customers have the following properties:
@@ -30,9 +31,10 @@ def deposit(self, amount):
      self.balance += amount
      return self.balance
  
-customer1 = Customer('Jason Taylor', 1000.0)
-print(customer1.balance)
-print(customer1.withdraw(100.0))
-print(customer1.balance)
+jason = Customer('Jason Taylor', 1000.0)
+print(jason.balance)
+print(jason.name)
+print(jason.withdraw(100.0))
+print(jason.balance)
 
 

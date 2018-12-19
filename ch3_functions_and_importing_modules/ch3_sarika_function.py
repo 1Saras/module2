@@ -17,34 +17,34 @@ def introduction():
 
 
 #Task 4 - print version#
-#def asking():
-#    print ("Please choose a number")
-#    numbera = input()
-#    print ("Please choose another number")
-#    numberb = input()
-#    print ("Here is the sum:") 
-#    print (int(numbera)+int(numberb))
+def asking():
+    print ("Please choose a number")
+    numbera = input()
+    print ("Please choose another number")
+    numberb = input()
+    print ("Here is the sum:") 
+    print (int(numbera)+int(numberb))
 
-#def add_two_numbers():
-#    number1 = 1
-#    number2 = 2
-#    answer = number1 + number2
-#    print ("{} plus {} is {}".format(number1, number2, answer))
+def add_two_numbers():
+    number1 = 1
+    number2 = 2
+    answer = number1 + number2
+    print ("{} plus {} is {}".format(number1, number2, answer))
     
-#def add_two_numbers_from_args(number1, number2):
-#    answer = number1 + number2
-#    print ("{} plus {} is {}".format(number1, number2, answer))
+def add_two_numbers_from_args(number1, number2):
+    answer = number1 + number2
+    print ("{} plus {} is {}".format(number1, number2, answer))
 
 
 #Task 4 -return version#
-#def add_two_numbers_and_return_value():
-#    number1 = 1
-#    number2 = 2
-#    answer = number1 + number2 # answer = 3
-#    return answer # 3
-#returned_value = add_two_numbers_and_return_value()
-#print(returned_value)
-#print(returned_value - 5)    
+def add_two_numbers_and_return_value():
+    number1 = 1
+    number2 = 2
+    answer = number1 + number2 # answer = 3
+    return answer # 3
+returned_value = add_two_numbers_and_return_value()
+print(returned_value)
+print(returned_value - 5)    
 
  
 #Task 5 -Convert temperatre return version#
@@ -54,60 +54,3 @@ def convert_temperature():
     kelvin = centigrade + 273.15
     return (centigrade, fahrenheit, kelvin)
     print (centigrade, fahrenheit, kelvin)
-
-
-
-
-
-
-
-
-
-#name = input("What’s your name? ")
-#city = input("What’s your city? ")
-#age = input ("Please type your age: ")
-#print ("Hello {} from {} aged {}!".format(name,city,age))
-
-
-
-
-
-#def hello_world():
-#    print ("Hello World!")
-#    
-#def name_surname():
-#    print ("What's your full name?")
-#    name = input()
-#    
-#    print ("My name is {}".format(name))
-#    addition()
-#    
-#def addition():
-#    add2_2 = 2+2
-#    print (add2_2)
-#    
-
-
-
-
-
-
-#def asking():
-#    print ("Please choose a number")
-#    numbera = input()
-#    print ("Please choose another number")
-#    numberb = input()
-#    print ("Here is the sum:") 
-#    print (int(numbera)+int(numberb))
-#
-#
-
-
-
-#def hello_world_4args(a, b, c, d):
-#    print ("{} {} {} {}".format(a, b, c, d))
-#    
-#
-
-
-

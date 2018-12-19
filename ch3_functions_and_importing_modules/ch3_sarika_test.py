@@ -9,28 +9,28 @@ from ch3_sarika_function import*
 
 
 ##Task 1 - Input from a user #
-#print ("What's your name? ")
-#name = input().upper()
-#print ("Hello {}!".format(name.upper()))
-#print ("Hello {}!".format(name.lower()))
-#print ("Hello {}!".format(name).title())
+print ("What's your name? ")
+name = input().upper()
+print ("Hello {}!".format(name.upper()))
+print ("Hello {}!".format(name.lower()))
+print ("Hello {}!".format(name).title())
 
 
 #Task 2 - First function#
-#greeting()
-#introduction()
+greeting()
+introduction()
 
 
 #Task 4 - print version#
-#asking()
-#
-#add_two_numbers()
-#
-#add_two_numbers_from_args(5,10)
+asking()
+
+add_two_numbers()
+
+add_two_numbers_from_args(5,10)
 
 
 #Task 4 -return version#
-#add_two_numbers_and_return_value()
+add_two_numbers_and_return_value()
 
 
 #Task 5 -Convert temperatre return version#
