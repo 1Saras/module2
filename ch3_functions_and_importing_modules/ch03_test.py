@@ -4,24 +4,36 @@ Created on Mon Dec  3 15:55:22 2018
 
 @author: saras
 """
-from ch03_functionsarika import* 
+from ch3_sarika_function import* 
 
 
 
-#hello_world()
-#name_surname()
-
-
-
+##First function#
 #greeting()
 #introduction()
-#
-#
-#
+
+
+##Print version#
 #asking()
 #
+#add_two_numbers()
 #
+#add_two_numbers_from_args(5,10)
+
+
+#Return version#
+add_two_numbers_and_return_value()
+
+
+
+
 #
+#hello_world()
+#name_surname()
+#
+
+
+
 #a1 = 'hello'
 #b1 = 'world'
 #c1 = 'love'

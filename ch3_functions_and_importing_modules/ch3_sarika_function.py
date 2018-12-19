@@ -4,6 +4,60 @@ Created on Mon Dec  3 15:44:56 2018
 
 @author: saras
 """
+
+#First function#
+def greeting():
+    print ("Hello World!")
+       
+def introduction():
+    print ("What's your name? ")
+    name = input()
+    print ("Hello {}!".format(name.upper()))
+    print (2+2)
+
+
+#Print version#
+def asking():
+    print ("Please choose a number")
+    numbera = input()
+    print ("Please choose another number")
+    numberb = input()
+    print ("Here is the sum:") 
+    print (int(numbera)+int(numberb))
+
+def add_two_numbers():
+    number1 = 1
+    number2 = 2
+    answer = number1 + number2
+    print ("{} plus {} is {}".format(number1, number2, answer))
+    
+def add_two_numbers_from_args(number1, number2):
+    answer = number1 + number2
+    print ("{} plus {} is {}".format(number1, number2, answer))
+
+
+#Return version#
+def add_two_numbers_and_return_value():
+    number1 = 1
+    number2 = 2
+    answer = number1 + number2 # answer = 3
+    return answer # 3
+returned_value = add_two_numbers_and_return_value()
+print(returned_value)
+print(returned_value - 5)    
+
+ 
+#Convert temperatre print version#
+
+    
+
+
+#Convert temperatre return version#
+
+
+
+
+
 #print ("What's your name? ")
 #name = input().upper()
 #print ("Hello {}!".format(name.upper()))
@@ -18,19 +72,6 @@ Created on Mon Dec  3 15:44:56 2018
 #city = input("What’s your city? ")
 #age = input ("Please type your age: ")
 #print ("Hello {} from {} aged {}!".format(name,city,age))
-
-
-
-
-
-#def greeting():
-#    print ("Hello World!")
-#       
-#def introduction():
-#    print ("What's your name? ")
-#    name = input()
-#    print ("Hello {}!".format(name.upper()))
-#    print (2+2)
 
 
 
