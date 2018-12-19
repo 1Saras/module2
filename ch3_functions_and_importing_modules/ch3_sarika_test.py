@@ -8,12 +8,20 @@ from ch3_sarika_function import*
 
 
 
-##First function#
+##Task 1 - Input from a user #
+#print ("What's your name? ")
+#name = input().upper()
+#print ("Hello {}!".format(name.upper()))
+#print ("Hello {}!".format(name.lower()))
+#print ("Hello {}!".format(name).title())
+
+
+#Task 2 - First function#
 #greeting()
 #introduction()
 
 
-##Print version#
+#Task 4 - print version#
 #asking()
 #
 #add_two_numbers()
@@ -21,8 +29,16 @@ from ch3_sarika_function import*
 #add_two_numbers_from_args(5,10)
 
 
-#Return version#
-add_two_numbers_and_return_value()
+#Task 4 -return version#
+#add_two_numbers_and_return_value()
+
+
+#Task 5 -Convert temperatre return version#
+conversion = convert_temperature()
+
+
+
+
 
 
 
@@ -57,5 +73,3 @@ add_two_numbers_and_return_value()
 #
 #
 #
-#conversion = convert_temperature()
-#print (conversion)
