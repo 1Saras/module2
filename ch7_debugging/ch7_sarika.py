@@ -13,8 +13,8 @@ Created on Sun Dec 16 19:18:26 2018
 #result = userInput - 2
 #
 ##Can use print function for debugging. In this case it's been used to check type. This will give the message: <class 'str'>#
-#userInput = input('Please give a number ')
-#print(type(userInput))
+userInput = input('Please give a number ')
+print(type(userInput))
 #
 ##---------2.Breakpoints---------#
 #
@@ -34,26 +34,26 @@ Created on Sun Dec 16 19:18:26 2018
 
 #------Avoiding key errors - the below avoids error message------#
 
-tel = {}
-tel = {'alf':111, 'bobby':222, 'calvin':333}
-
-tel['Martiena'] = 145
-tel['Mag'] = 281
-
-#Sam is not in the directory#
-k = 'Sam'
-
-if k in tel:
-    print(k, ':', tel[k])
-    
-else:
-    print(k, 'not found!')
+#tel = {}
+#tel = {'alf':111, 'bobby':222, 'calvin':333}
+#
+#tel['Martiena'] = 145
+#tel['Mag'] = 281
+#
+##Sam is not in the directory#
+#k = 'Sam'
+#
+#if k in tel:
+#    print(k, ':', tel[k])
+#    
+#else:
+#    print(k, 'not found!')
 
 #Mag is in the dictionary so her data will be printed#
-k = 'Mag'
-
-if k in tel:
-    print(k, ':', tel[k])
-    
-else:
-    print(k, 'not found!')
+#k = 'Mag'
+#
+#if k in tel:
+#    print(k, ':', tel[k])
+#    
+#else:
+#    print(k, 'not found!')
