@@ -42,12 +42,10 @@ def add_two_numbers_and_return_value():
     number2 = 2
     answer = number1 + number2 # answer = 3
     return answer # 3
-returned_value = add_two_numbers_and_return_value()
-print(returned_value)
-print(returned_value - 5)    
+returned_value = add_two_numbers_and_return_value() 
 
  
-#Task 5 -Convert temperatre return version#
+#Task 5 -Convert temperature return version#
 def convert_temperature(): 
     centigrade = int(input("What temperature in centigrade do you want to convert to fahrenheit and kelvin? "))
     fahrenheit = (centigrade * 9.0) / 5.0 + 32

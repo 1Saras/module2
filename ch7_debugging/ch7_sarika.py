@@ -4,21 +4,21 @@ Created on Sun Dec 16 19:18:26 2018
 
 @author: Sara
 """
-There are different ways to debug
+#There are different ways to debug
 
----------1. Print Function---------
+#---------1. Print Function---------
 
-Get the following error TypeError: unsupported operand type(s) for -: 'str' and 'int':
+#Get the following error TypeError: unsupported operand type(s) for -: 'str' and 'int':
     
 userInput = input('Please give a number ')
 result = userInput - 2
 
-Can use print function for debugging. In this case it's been used to check type. This will give the message: <class 'str'>:
+#Can use print function for debugging. In this case it's been used to check type. This will give the message: <class 'str'>:
 
 userInput = input('Please give a number ')
 print(type(userInput))
 
----------2.Breakpoints---------
+#---------2.Breakpoints---------
 
 userInput = input('Please give a number ')
 def simpleOperation(userInput):
@@ -33,38 +33,11 @@ result = simpleOperation(userInput)
 result2 = nestedOperation(result)
 print(result2)
 
-How to use debug navigation buttons to run the breakpoint debug procedure:
-Firstly add a breakpoint at line 30: result = simpleOperation(userInput). 
-This is done by double clicking the line number of code. 
-The blue buttons are the debugging buttons:
-The first blue button starts running the code until the break point.
-The second button runs the code line-by-line until the breakpoint.
-The third button steps into sections that would to look at in more detail.
-The fourth button allows the user to step out of that code.
-
-
-------Avoiding key errors in the first place- the below avoids error message------
-
-tel = {}
-tel = {'alf':111, 'bobby':222, 'calvin':333}
-
-tel['Martiena'] = 145
-tel['Mag'] = 281
-
-#Sam is not in the directory
-k = 'Sam'
-
-if k in tel:
-    print(k, ':', tel[k])
-    
-else:
-    print(k, 'not found!')
-
-#Mag is in the dictionary so her data will be printed
-k = 'Mag'
-
-if k in tel:
-    print(k, ':', tel[k])
-    
-else:
-    print(k, 'not found!')
+#How to use debug navigation buttons to run the breakpoint debug procedure:
+#Firstly add a breakpoint at line 30: result = simpleOperation(userInput). 
+#This is done by double clicking the line number of code. 
+#The blue buttons are the debugging buttons:
+#The first blue button starts running the code until the break point.
+#The second button runs the code line-by-line until the breakpoint.
+#The third button steps into sections that would to look at in more detail.
+#The fourth button allows the user to step out of that code.

@@ -10,7 +10,7 @@ Created on Fri Dec 14 09:49:36 2018
 salary = {} #creates an empty directory
 
 salary['al'] = 20000
-salary['Sarika'] = 800000
+salary['Sarika'] = 800 000
 salary['Jenny'] = 700000
 print(salary)
 
