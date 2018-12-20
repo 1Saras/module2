@@ -107,19 +107,86 @@ Created on Thu Dec 20 09:31:06 2018
 #    print('after adding',value, 'total is', total)
 
  
-Christmas_Wish = {'books': (5), 'holidays': (3), 'chocolates': (25)}
-loopRound = 0
-for gift, item in Christmas_Wish.items():
-    print('open box', loopRound, 'the gift is', gift)
-    print('the item is', item)
-    if item >=4:
-        print ('Yay! I am so happy to be getting', item, gift, '.')
-    else:
-         print ('Oh no please get me more', 'of', gift, '.')
-         
-    loopRound +-1
+#Christmas_Wish = {'books': (5), 'holidays': (1), 'chocolates': (25)}
+#loopRound = 0
+#for gift, item in Christmas_Wish.items():
+#    print('open box', loopRound, 'the gift is', gift)
+#    print('the item is', item)
+#    if item >=4:
+#        print ('Yay! I am so happy to be getting', item, gift, '.')
+#    else:
+#         print ('Oh no please get me more', 'of', gift, '.')
+#         
+#    loopRound +-1
 
 #Christmas_List = {'book': (5, 10.99), 'holidays': (3, 5000), 'chocolates': (25, 30)}
+ 
+#values = [3, 12, 9, 2, 3, 4, 5, 6]
+
+#for v in values:    
+#    print(values) #prints [3, 12, 9] three times
+#
+#for index in range(len(values)):
+#    print(index) #prints 012
+#    
+#for index in range(len(values)):
+#    print(values[index]) #prints 3,12,9
+#    
+#for index in range(0,len(values),3):
+#    print(values[index]) 
+#
+#values = [3, 12, 9]
+#for index in range(len(values)):
+#    values[index] = values[index] * 2
+#    print(values)
+    
+#for index in range(3,10,2):
+#    print(index)
+#    print(list(range(3)))
+
+#nums = [1, 5, 30, 200, 101, 100, 22]
+#for n in nums:
+#    if n >100:
+#        print('break:', n)
+#        break
+#
+#nums = [1, 5, 30, 200, 101, 100, 22]
+#for index in range (len(nums)):
+##    print('loop index',index,'with value',num[index])
+#    if nums[index] > 100:
+#        print ('need to break:', nums[index], 'with index',index)
+#    else:
+#        print('oh you forgot to break the loop!',nums[index],'with index',index)
+        
+        
+#outer_vals = [1, 2, 3]
+#inner_vals = ['A', 'B', 'C']
+#d = {}
+#for oval in outer_vals:
+##    print(oval)
+#    for ival in inner_vals:
+#        print(ival)
+#        d[oval] = ival
+#        print(d)
+ 
+
+#outer_vals = [1, 2, 3]
+#inner_vals = ['A', 'B', 'C']
+#d = {}
+#for oval in outer_vals:
+##    print(oval)
+#    for ival in ['A', 'B', 'C']:
+#        d[oval] = ival
+#        print(d)
+        
+outer_vals = [1, 2, 3]
+inner_vals = ['A', 'B', 'C']
+d = {}    
+for outer_val in [1, 2, 3]:
+    for inner_val in ['A', 'B', 'C']:
+        d[outer_val] = inner_val
+        print(outer_val,inner_val)
+ 
 
 
 
@@ -131,6 +198,12 @@ for gift, item in Christmas_Wish.items():
 
 
 
+
+
+
+
+       
+        
 
 
 

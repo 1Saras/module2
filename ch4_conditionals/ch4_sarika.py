@@ -25,7 +25,7 @@ number = int(number)
 if number >10:
     print("Too high!")
     
-if number <=0:
+elif number <=0:
     print("Too low!")
     
 else:
