@@ -5,6 +5,8 @@ Created on Mon Jan  7 09:59:29 2019
 @author: saras
 """
 
+#Task 1
+
 class Person:
     def __init__(self,name,age,gender):
         self.name = name
@@ -15,6 +17,8 @@ class Person:
             self.isMale = False
         else:
             print("Gender not recognised!")
+
+#Task 2
             
     def greetingInformal(self):
         print('Hi', self.name)
@@ -24,6 +28,8 @@ class Person:
             print('Welcome, Mr', self.name)
         else:
             print('Welcome, Ms', self.name)
+
+#Task 3
             
     def greetingAgeBased(self):
         if self.age < 18:
@@ -31,8 +37,18 @@ class Person:
         elif self.age > 60:
             print('Welcome, venerable', self.name)
         else:
-            self.greetingFormal()               
+            self.greetingFormal()   
 
+
+#Task4 
+
+#class Wizard(Person):
+#    def greetingFormal(self):
+#        print('Welcome, Mr', self.name, end=' ')
+#        print('- you\’re a fine wizard!') 
+              
+
+#Task 5 & 6
 class Wizard(Person):
     def __init__(self,name,age,gender):
         Person.__init__(self,name,age,'m')
@@ -41,6 +57,7 @@ class Wizard(Person):
             print('- you\’re a fine wizard!')
     def spell(self): 
             print('Expelliarmus!')
+
 
 p1 = Person('Harry',12,'m')
 p2 = Person('Jean',22,'f')
