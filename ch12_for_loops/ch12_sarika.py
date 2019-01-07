@@ -19,15 +19,31 @@ Created on Thu Dec 20 09:31:06 2018
 #values = [875, 23, 451]
 #for val in values:
 #    print('---> '+str(val))
-#    print('---> '+str(val+50))   
+#    
+#for val in values:
+#    print('---> '+str(val+50)) 
+#    
+#for val in values:
 #    print('---> '+str(val), '---> '+str(val+50) )
-   
+#    
+#for val in values:
+#    print('---> '+str(val), '---> '+str(val-50) )
+#    
+#for val in values:
+#    print('---> '+str(val), '---> '+str(val*4.5) )
+#    
+#for val in values:
+#    print('---> '+str(val), '---> '+str(val/2.1) )
+#
+#for val in values:
+#    print('---> '+str(val), '---> '+str(val%2.1) )
+
 
 
 ##Task 3#
-#values = ['this', 55, 'that']
+#values = ['plane', 125, 'train', 'car', 26, 'tram', 'bike']
 #for item in values:
-#    print('***', item)
+#    print('/-/', item)
 
 
 
@@ -38,30 +54,52 @@ Created on Thu Dec 20 09:31:06 2018
 #for char in "It's Thursday today":
 #    print(char) 
 #
-#for char in "It's Thursday today":
-#    print(char)
-
 #for char in "It's Thursday today".split():
 #    print(char)
-#    
+    
 #for char in "It's Thursday today".split('o'):
 #    print(char)
-        
+#        
 #for char in "It's-Thursday-today".split('-'):
 #    print(char)
 
 
 
-##Task 5#
-#restaurant = ("Indian", "Mexican", "Italian", "Chinese")
+##Task 5-tuple#
+#restaurant = ("Indian", "Mexican", "Italian", "Chinese", "French")
 #for item in restaurant:
 #    print(item)
 #    
-    
+
+
+##Task 6-dictionary
+
+#Create a salary dictionary with the info below. Think about how to sort
+#your dictionary and print key:value pairs.
+#al = 20000
+#bo = 50000
+#ced = 1500
+
+
+
+
+
+
+
+
+#Task 7
 
 #densities = {'iron':7.8, 'gold':19.3, 'zinc':7.13, 'lead':11.4}
 #metals = list(densities.keys())
 #print(metals)
+#
+#metals.sort(reverse=True,key=lambda m:densities[m])
+#print (metals)
+#
+#for metal in metals:
+#    print('{0:>8} = {1:5.1f}'.format(metal,densities[metal]))
+
+
 
 
 ##Task 8#
@@ -179,14 +217,14 @@ Created on Thu Dec 20 09:31:06 2018
 #        d[oval] = ival
 #        print(d)
         
-outer_vals = [1, 2, 3]
-inner_vals = ['A', 'B', 'C']
-d = {}    
-for outer_val in [1, 2, 3]:
-    for inner_val in ['A', 'B', 'C']:
-        d[outer_val] = inner_val
-        print(outer_val,inner_val)
- 
+#outer_vals = [1, 2, 3]
+#inner_vals = ['A', 'B', 'C']
+#d = {}    
+#for outer_val in [1, 2, 3]:
+#    for inner_val in ['A', 'B', 'C']:
+#        d[outer_val] = inner_val
+#        print(outer_val,inner_val)
+# 
 
 
 
