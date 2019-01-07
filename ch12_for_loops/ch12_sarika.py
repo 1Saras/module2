@@ -73,28 +73,27 @@ Created on Thu Dec 20 09:31:06 2018
 
 
 ##Task 6-dictionary
-
 #Create a salary dictionary with the info below. Think about how to sort
 #your dictionary and print key:value pairs.
-#al = 20000
-#bo = 50000
-#ced = 1500
 
+salaries = {'al':20000, 'bo':50000, 'ced':1500}
+staff = list(salaries.keys())
+print(staff)
 
-
-
+salaries .sort(reverse=True,key=lambda m:salary[m])
+print(salary)
 
 
 
 
 #Task 7
 
-#densities = {'iron':7.8, 'gold':19.3, 'zinc':7.13, 'lead':11.4}
+densities = {'iron':7.8, 'gold':19.3, 'zinc':7.13, 'lead':11.4}
 #metals = list(densities.keys())
 #print(metals)
 #
-#metals.sort(reverse=True,key=lambda m:densities[m])
-#print (metals)
+metals.sort(reverse=True,key=lambda m:densities[m])
+print (metals)
 #
 #for metal in metals:
 #    print('{0:>8} = {1:5.1f}'.format(metal,densities[metal]))
