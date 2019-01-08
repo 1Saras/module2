@@ -37,10 +37,10 @@ Created on Thu Dec 20 09:31:06 2018
 #
 #for val in values:
 #    print('---> '+str(val), '---> '+str(val%2.1) )
-
-
-
-##Task 3#
+#
+#
+#
+###Task 3#
 #values = ['plane', 125, 'train', 'car', 26, 'tram', 'bike']
 #for item in values:
 #    print('/-/', item)
@@ -48,15 +48,15 @@ Created on Thu Dec 20 09:31:06 2018
 
 
 ##Task 4#
-#for char in "Yes":
-#    print(char)    
+for char in "Yes":
+    print(char)    
 #    
 #for char in "It's Thursday today":
 #    print(char) 
-#
+
 #for char in "It's Thursday today".split():
 #    print(char)
-    
+#    
 #for char in "It's Thursday today".split('o'):
 #    print(char)
 #        
@@ -65,46 +65,41 @@ Created on Thu Dec 20 09:31:06 2018
 
 
 
-##Task 5-tuple#
+###Task 5-tuple#
 #restaurant = ("Indian", "Mexican", "Italian", "Chinese", "French")
 #for item in restaurant:
 #    print(item)
 #    
-
-
-##Task 6-dictionary
-#Create a salary dictionary with the info below. Think about how to sort
-#your dictionary and print key:value pairs.
-
-salaries = {'al':20000, 'bo':50000, 'ced':1500}
-staff = list(salaries.keys())
-print(staff)
-
-salaries .sort(reverse=True,key=lambda m:salary[m])
-print(salary)
-
-
-
-
-#Task 7
-
-densities = {'iron':7.8, 'gold':19.3, 'zinc':7.13, 'lead':11.4}
+#
+#
+###Task 6-dictionary
+#
+#salaries = {'al':20000, 'bo':50000, 'ced':1500}
+#employees = list(salaries.keys())
+#print(employees)
+#
+#employees.sort(key=lambda s:salaries[s])
+#print(employees)
+#
+#
+#
+##Task 7 & Task 8
+#
+#densities = {'iron':7.8, 'gold':19.3, 'zinc':7.13, 'lead':11.4}
 #metals = list(densities.keys())
 #print(metals)
 #
-metals.sort(reverse=True,key=lambda m:densities[m])
-print (metals)
+#metals.sort(reverse=True,key=lambda m:densities[m])
+#print (metals)
 #
 #for metal in metals:
 #    print('{0:>8} = {1:5.1f}'.format(metal,densities[metal]))
-
-
-
-
-##Task 8#
+#
+###another example
+#
 #densities = {'iron':(7.8, 12.5, 498), 'gold':(19.3, 32.1, 230), 'zinc':(7.13, 84.8, 879), 'lead':(11.4, 98.1, 384)}
 #metals = list(densities.keys())
-    
+#    
 #for metal in metals:
 #    print(metal) 
 #      
@@ -125,7 +120,7 @@ print (metals)
 #    
 #for metal in metals:
 #        print(metal, densities [metal][1])
-              
+#              
 #for metal in metals:
 #    if densities[metal][0]>8:
 #        print('{0:>8} = {1:5.1f}'.format(metal,densities[metal][0]))
@@ -133,17 +128,18 @@ print (metals)
 #for metal in metals:
 #    if densities[metal][0]>15:
 #        print(metal,densities[metal][0])
-
-        
-##Task 9#
+#
+#
+#        
+###Task 9#
 #valuesList = [3, 12, 9]
 #total = 0
 #for value in valuesList:
 #    print('before adding',value, 'total is', total)
 #    total = value + total
 #    print('after adding',value, 'total is', total)
-
- 
+#
+# 
 #Christmas_Wish = {'books': (5), 'holidays': (1), 'chocolates': (25)}
 #loopRound = 0
 #for gift, item in Christmas_Wish.items():
@@ -155,11 +151,11 @@ print (metals)
 #         print ('Oh no please get me more', 'of', gift, '.')
 #         
 #    loopRound +-1
-
+#
 #Christmas_List = {'book': (5, 10.99), 'holidays': (3, 5000), 'chocolates': (25, 30)}
- 
+# 
 #values = [3, 12, 9, 2, 3, 4, 5, 6]
-
+#
 #for v in values:    
 #    print(values) #prints [3, 12, 9] three times
 #
@@ -176,11 +172,11 @@ print (metals)
 #for index in range(len(values)):
 #    values[index] = values[index] * 2
 #    print(values)
-    
+#    
 #for index in range(3,10,2):
 #    print(index)
 #    print(list(range(3)))
-
+#
 #nums = [1, 5, 30, 200, 101, 100, 22]
 #for n in nums:
 #    if n >100:
@@ -194,8 +190,8 @@ print (metals)
 #        print ('need to break:', nums[index], 'with index',index)
 #    else:
 #        print('oh you forgot to break the loop!',nums[index],'with index',index)
-        
-        
+#        
+#        
 #outer_vals = [1, 2, 3]
 #inner_vals = ['A', 'B', 'C']
 #d = {}
@@ -205,8 +201,8 @@ print (metals)
 #        print(ival)
 #        d[oval] = ival
 #        print(d)
- 
-
+# 
+#
 #outer_vals = [1, 2, 3]
 #inner_vals = ['A', 'B', 'C']
 #d = {}
@@ -215,7 +211,7 @@ print (metals)
 #    for ival in ['A', 'B', 'C']:
 #        d[oval] = ival
 #        print(d)
-        
+#        
 #outer_vals = [1, 2, 3]
 #inner_vals = ['A', 'B', 'C']
 #d = {}    
@@ -224,7 +220,7 @@ print (metals)
 #        d[outer_val] = inner_val
 #        print(outer_val,inner_val)
 # 
-
+#
 
 
 
