@@ -48,8 +48,8 @@ Created on Thu Dec 20 09:31:06 2018
 
 
 ##Task 4#
-for char in "Yes":
-    print(char)    
+#for char in "Yes":
+#    print(char)    
 #    
 #for char in "It's Thursday today":
 #    print(char) 
@@ -95,11 +95,11 @@ for char in "Yes":
 #for metal in metals:
 #    print('{0:>8} = {1:5.1f}'.format(metal,densities[metal]))
 #
-###another example
-#
-#densities = {'iron':(7.8, 12.5, 498), 'gold':(19.3, 32.1, 230), 'zinc':(7.13, 84.8, 879), 'lead':(11.4, 98.1, 384)}
-#metals = list(densities.keys())
-#    
+
+##Another example
+densities = {'iron':(7.8, 12.5, 498), 'gold':(19.3, 32.1, 230), 'zinc':(7.13, 84.8, 879), 'lead':(11.4, 98.1, 384)}
+metals = list(densities.keys())
+    
 #for metal in metals:
 #    print(metal) 
 #      
@@ -120,47 +120,61 @@ for char in "Yes":
 #    
 #for metal in metals:
 #        print(metal, densities [metal][1])
-#              
-#for metal in metals:
-#    if densities[metal][0]>8:
-#        print('{0:>8} = {1:5.1f}'.format(metal,densities[metal][0]))
-#
+              
 #for metal in metals:
 #    if densities[metal][0]>15:
-#        print(metal,densities[metal][0])
+#        print("Density above 15:", metal,densities[metal][0])
+#    else:
+#        print("Density less than 15:", metal,densities[metal][0])
 #
 #
 #        
-###Task 9#
+###Task 9 & 10#
+
 #valuesList = [3, 12, 9]
 #total = 0
 #for value in valuesList:
 #    print('before adding',value, 'total is', total)
 #    total = value + total
 #    print('after adding',value, 'total is', total)
+
+#values = [3, 12, 9]
+#total = 0
+#for val in values:
+#    total += val
+#print('TOTAL:' + str(total)) 
+##prints TOTAL: 24
 #
-# 
-#Christmas_Wish = {'books': (5), 'holidays': (1), 'chocolates': (25)}
-#loopRound = 0
-#for gift, item in Christmas_Wish.items():
-#    print('open box', loopRound, 'the gift is', gift)
-#    print('the item is', item)
-#    if item >=4:
-#        print ('Yay! I am so happy to be getting', item, gift, '.')
-#    else:
-#         print ('Oh no please get me more', 'of', gift, '.')
-#         
-#    loopRound +-1
+#def sumValues(l):
+#    sumV = 0
+#    for val in l:
+#        sumV +=val
+#    return sumV
+#print (sumValues(values))
+##prints 24
 #
-#Christmas_List = {'book': (5, 10.99), 'holidays': (3, 5000), 'chocolates': (25, 30)}
-# 
-#values = [3, 12, 9, 2, 3, 4, 5, 6]
+#for i in range(len(values)):
+#    values[i] = values[i] * 2
+#print(values) 
+##prints [6, 24, 18]
+#
+#print(len(values))
+##prints 3
+#
+#print (list(range(6)))
+##prints [0, 1, 2, 3, 4, 5]
+
+##another example
+
+
+values = [3, 12, 9, 2, 3, 4, 5, 6]
 #
 #for v in values:    
-#    print(values) #prints [3, 12, 9] three times
-#
-#for index in range(len(values)):
-#    print(index) #prints 012
+#    print(values) 
+#    #prints [3, 12, 9, 2, 3, 4, 5, 6] eight times as there are 8 values
+    
+for index in range(len(values)):
+    print(index) #prints 
 #    
 #for index in range(len(values)):
 #    print(values[index]) #prints 3,12,9
@@ -220,8 +234,23 @@ for char in "Yes":
 #        d[outer_val] = inner_val
 #        print(outer_val,inner_val)
 # 
-#
 
+#
+#
+# 
+#Christmas_Wish = {'books': (5), 'holidays': (1), 'chocolates': (25)}
+#loopRound = 0
+#for gift, item in Christmas_Wish.items():
+#    print('open box', loopRound, 'the gift is', gift)
+#    print('the item is', item)
+#    if item >=4:
+#        print ('Yay! I am so happy to be getting', item, gift, '.')
+#    else:
+#         print ('Oh no please get me more', 'of', gift, '.')
+#         
+#    loopRound +-1
+#
+#Christmas_List = {'book': (5, 10.99), 'holidays': (3, 5000), 'chocolates': (25, 30)}
 
 
 
