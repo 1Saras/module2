@@ -10,11 +10,12 @@ app = Flask("MyApp")
 #creates the object Flask
 
 
+
 @app.route("/") 
 #python decorator creates new route in webpage / -the top level
-def hello(): 
+def index():
     #creating function
-    return "<h1>Finally I am working!!!!</h1>"
+    return "<h1>Welcome - finally I am working!!!!</h1>"
 
 
 
@@ -25,7 +26,7 @@ def contact():
 
 
 @app.route("/portfolio")
-def my_portfolio():
+def portfolio():
     test1="check"
     return test1
 #trying a variable
@@ -38,7 +39,7 @@ def hello_someone(name):
  
     
 @app.route("/greetingcard/<gbname>")
-def goodbye_someone(gbname):
+def greetingcard(gbname):
     return render_template("goodbye.html", gbname=gbname.title())
 #prints Goodbye and good luck with your new role Gbname!
 
