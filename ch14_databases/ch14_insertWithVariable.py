@@ -62,15 +62,17 @@ for i in range(10):
 
 def read_from_db_all():
  c.execute('SELECT * FROM stuffToBuild WHERE value =8 ') #selects everything (*) that has a value of 8 from the database stuffToBuild 
- for row in c.fetchall(): #fetchall() functionis similar to the pull function in Git
+# print(c.fetchall())
+ for row in c.fetchall(): #fetchall() function is similar to the pull function in Git
      print(row)
-#read_from_db_all()
+read_from_db_all()
      
-def read_from_db2():
- c.execute('SELECT * FROM stuffToBuild WHERE value =2 and unix > 142233222.0 and unix <1547032636.94002 ')
- for row in c.fetchall():
-     print(row[0]) #prints unix one values
-read_from_db2()
+#def read_from_db2():
+# c.execute('SELECT * FROM stuffToBuild WHERE value =2 and unix > 142233222.0 and unix <1547032636.94002 ')
+# print(c.fetchall())
+# for row in c.fetchall():
+#     print(row[0]) #prints unix one values
+#read_from_db2()
 
 c.close() #closes table 
 conn.close() #closes table and database         
